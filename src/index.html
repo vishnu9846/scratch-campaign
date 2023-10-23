@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/3704680c3f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Artifika&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-bg_black">
+    <header>
+        <div class="flex-wrap flex">
+            <div id="icon">
+                <img src="./images/Menu.png" alt="">
+            </div>
+        </div>
+    </header>
+    <section>
+        <div>
+            <div>
+                <h1 class="text-white flex justify-center font-bot text-[1.5rem]">CampaignName</h1>
+                <h2 class="text-primary flex justify-center text-[19.68px] pt-2">Scratch here to reveal your price</h2>    
+            </div>
+            <div class="flex justify-center pt-4">
+                <img src="./images/Frame 4468.png" alt="">
+            </div>
+            <div>
+                <h2 class="text-light flex justify-center text-[19.68px]">Chance to win upto 30% Off </h2>
+            </div>
+            <div class="flex justify-center">
+                <div class="text-primary text-[1.23rem] pl-3">
+                    <h2 class="flex">How this works</h2>
+                    <ul class="pl-10">
+                        <p>Aut dicta quia. Ut repellat autem vitae. Cupiditate eaque</p>
+                        <p> Corrupti voluptatum eos non adipisci soluta voluptate. Est maxime est.</p>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex justify-center pt-5">
+                <div class="text-primary text-[1.23rem] pl-3">
+                    <h2 class="flex">Terms and condition</h2>
+                    <ul class="pl-10">
+                        <p>Aut dicta quia. Ut repellat autem vitae. Cupiditate eaque</p>
+                        <p>Corrupti voluptatum eos non adipisci soluta voluptate. Est maxime est.</p>
+                    </ul>
+                </div>
+                
+            </div>
+           
+        </div>
+
+    </section>
+
+    <div id="overlay" class="bg-bg_black">
+        <div class="flex items-center mx-6 my-10 justify-between">
+            <h1 class="text-white font-semibold" >McDonald's</h1>
+            <img src="./images/add.png" alt="" id="close_overlay">
+        </div>
+        <div class="mx-6">
+            <h1 class="text-light mb-8">Breakfast</h1>
+            <h1 class="text-light mb-8">Burgers</h1>
+            <h1 class="text-light">Beverages</h1>
+        </div>
+        <div class="mx-6 mt-[4.5rem]">
+            <h1  class="text-light mb-8">WhatsApp us</h1>
+            <h1  class="text-light mb-8">Share with friends</h1>
+            <h1  class="text-light mb-8">Open map</h1>
+        </div>
+        <div class="language-div mx-6 ">
+            <div class="language-dropdown flex justify-between rounded-xl p-4" onclick="toggleLanguageOptions()">
+                <span id="selectedLanguage">English</span>
+            </div>
+            <img class="dropdown-arrow " src="./media/arrow-down.svg" alt="">
+            <div class="language-options rounded-br-xl rounded-bl-xl" id="languageOptions" onmouseleave="hideLanguageOptions()">
+                <div class="language-option " onclick="selectLanguage('English')">English</div>
+                <div class="language-option" onclick="selectLanguage('Arabic')">Arabic</div>
+                <div class="language-option" onclick="selectLanguage('Spanish')">Spanish</div>
+                <div class="language-option" onclick="selectLanguage('Chinese')">Chinese</div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
