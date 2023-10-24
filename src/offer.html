@@ -32,9 +32,65 @@
                 <h1 class="text-primary text-2xl pt-2"><span class="text-[4rem] text-primary font-extrabold">10%</span>OFF</h1>
                 <h1 class="text-primary font-bold text-[1.23rem] pt-5">Fajitha Sandwitch</h1>
                 <h1>Save up to 10% on your next purchase.</h1>
-
             </div>
         </div>
+        <div class="flex justify-center text-[1rem] font-bold text-primary ">
+            <h1 class="button">Redeem now</h1>
+        </div>
+        <div class="pt-5">
+            <div class="flex justify-center">
+                <div class="text-primary text-[1.23rem] pl-3">
+                    <h2 class="flex">How this works</h2>
+                    <ul class="pl-10">
+                        <p>Aut dicta quia. Ut repellat autem vitae. Cupiditate eaque</p>
+                        <p> Corrupti voluptatum eos non adipisci soluta voluptate. Est maxime est.</p>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex justify-center pt-5">
+                <div class="text-primary text-[1.23rem] pl-3">
+                    <h2 class="flex">Terms and condition</h2>
+                    <ul class="pl-10">
+                        <p>Aut dicta quia. Ut repellat autem vitae. Cupiditate eaque</p>
+                        <p>Corrupti voluptatum eos non adipisci soluta voluptate. Est maxime est.</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+            <!-- menu bar section -->
+    <div id="overlay" class="bg-bg_black">
+        <div class="flex items-center mx-6 my-10 justify-between">
+            <h1 class="text-white font-semibold" >McDonald's</h1>
+            <img src="./images/add.png" alt="" id="close_overlay">
+        </div>
+        <div class="mx-6">
+            <h1 class="text-light mb-8">Breakfast</h1>
+            <h1 class="text-light mb-8">Burgers</h1>
+            <h1 class="text-light">Beverages</h1>
+        </div>
+        <div class="mx-6 mt-[4.5rem]">
+            <h1  class="text-light mb-8">WhatsApp us</h1>
+            <h1  class="text-light mb-8">Share with friends</h1>
+            <h1  class="text-light mb-8">Open map</h1>
+        </div>
+        <div class="language-div mx-6 ">
+            <div class="language-dropdown flex justify-between rounded-xl p-4" onclick="toggleLanguageOptions()">
+                <span id="selectedLanguage">English</span>
+            </div>
+            <img class="dropdown-arrow " src="./media/arrow-down.svg" alt="">
+            <div class="language-options rounded-br-xl rounded-bl-xl" id="languageOptions" onmouseleave="hideLanguageOptions()">
+                <div class="language-option " onclick="selectLanguage('English')">English</div>
+                <div class="language-option" onclick="selectLanguage('Arabic')">Arabic</div>
+                <div class="language-option" onclick="selectLanguage('Spanish')">Spanish</div>
+                <div class="language-option" onclick="selectLanguage('Chinese')">Chinese</div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+    <!-- menu bar section ends -->
     </section>
 </body>
    
